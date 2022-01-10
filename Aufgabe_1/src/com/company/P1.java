@@ -130,9 +130,6 @@ public class P1{
         System.out.println("\n");
         sortPraise();
         Statistic();
-
-
-
     }
 }
 
