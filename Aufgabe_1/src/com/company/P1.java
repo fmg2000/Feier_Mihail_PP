@@ -116,14 +116,14 @@ public class P1{
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
-            System.out.println("An error occurred.");
+            System.out.println("An error occurred");
             e.printStackTrace();
         }
 
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args ) {
         readFile(new File("C:\\Users\\Mihai\\Documents\\GitHub\\Feier_Mihail_PP\\Aufgabe_1\\src\\com\\company\\offerten"));
         for (offerten i : Listofferten)
             System.out.println(i);
